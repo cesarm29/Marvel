@@ -1,0 +1,35 @@
+<div class="container">
+    	<div class="row" style="padding-top: 200px;border: 5px solid transparent;">
+			<div class="col-md-6 col-md-offset-3">
+				<div>
+
+					<div class="panel-heading">
+						<div class="col-sm-6 col-md-offset-2"><p style="font-style: oblique"><i>ComicDiscover.com</i></p></div>
+					</div>
+
+					<div>
+						<div class="row">
+							<div >
+								<form #userForm="ngForm"   (ngSubmit)="onSave(userForm.value)" style="display: block;">
+									<div class="form-group">
+										<input type="text" name="name" id="name" tabindex="1" class="form-control" placeholder="Name" required="true" [(ngModel)]="name">
+									</div>
+									<div class="form-group">
+										<input type="email" name="email" id="email" tabindex="2" class="form-control" placeholder="Email Adress" required="true" [(ngModel)]="email" >
+									</div>
+									<div class="form-group">
+										<div class="row">
+											<div class="col-sm-6 col-sm-offset-5">
+											    <button type="submit" class="btn btn-primary">Go for it!</button>
+											</div>
+										</div>
+									</div>
+								</form>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>

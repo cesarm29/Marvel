@@ -1,0 +1,123 @@
+<div class="container">
+	<div class="col-md-12">
+	 <div class="panel-heading">
+		<div ><p style="font-style: oblique;text-align: center"><i>ComicDiscover.com</i></p></div>
+	 </div>
+	</div>
+	
+		<div  *ngFor="let item of charactersMarvelJson1.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+        <div  *ngFor="let item of charactersMarvelJson2.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+        <div  *ngFor="let item of charactersMarvelJson3.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+        <div  *ngFor="let item of charactersMarvelJson4.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+        <div  *ngFor="let item of charactersMarvelJson5.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+        <div  *ngFor="let item of charactersMarvelJson6.data.results; let i = index">
+			<div style="border-bottom: 20px;"> 
+			<div class="col-md-3 col-md-offset-1" style="padding-top: 30px;border-style: solid;border-color: black;padding-bottom: 30px;margin-bottom: 10px;">
+			<img src="{{item.thumbnail.path}}.{{item.thumbnail.extension}}" style="width: 250px;height: 200px;margin-top: -30px;">
+			<h4>
+				{{item.name}}
+			</h4>
+			<p style="font-size: 14px;height: 120px;">
+				{{item.description}}
+			</p>
+				<div class="col-md-12">	
+				<a href="{{item.urls[0].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[0].url)"  type="submit" class="btn btn-primary">Detalle</a>
+				<a href="{{item.urls[1].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[1].url)"  type="submit" class="btn btn-primary">Wiki</a>
+				<a href="{{item.urls[2].url}}" target="_blank" style="width: 65px;margin-right: 1px;" (click)="onItemSave(item.name,item.urls[2].url)"  type="submit" class="btn btn-primary">Comics</a>
+		    </div>
+		    </div>
+	        </div>
+        </div>
+
+
+</div>
